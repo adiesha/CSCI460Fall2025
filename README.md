@@ -114,6 +114,7 @@ Textbook
 - Pop-up Test 6
 
 ## Attendance (5%)
+Please make sure that you have an iclicker account and you have the iclicker app with you in the class. 
 
 ## Project (16%)
 - You are required to do a project at the end of the semester.
