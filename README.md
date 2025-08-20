@@ -147,7 +147,8 @@ Please make sure that you have an iclicker account and you have the iclicker app
 ## Computer Science Success Center
 - There are free tutors availble in Barnard 259. https://www.cs.montana.edu/student-success-center.html
 
-Discord Server: All communication will be done via our course Discord Server. Please pay attention to messages in discord server. Please [change your nickname](https://support.discord.com/hc/en-us/articles/219070107-Server-Nicknames#:~:text=If%20you're%20on%20the,new%20nickname%20of%20your%20choice!) to your full name (first and last). Additionally, I suggest managing your notification settings. Check out [Discord’s Notification Settings 101 page](https://support.discord.com/hc/en-us/articles/215253258-Notifications-Settings-101) to get started. You may also need to manage the application notification settings on your device.
+## Announcements
+All communication will be done via Canvas. Canvas has a pretty good announcement system.
 
 
 
