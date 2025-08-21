@@ -83,9 +83,10 @@ Textbook
 
 ## Instructor Office hours
 - Office hours:
-- Tuesday - TBD 
-- Friday - TBD
-- Barnard 349
+- Monday: 9.05-10.00 A.M
+- Tuesday: 10.00-11.00 A.M
+- Friday: 9.05-10.00 A.M
+- Office: Barnard 349
 
 ## Programming Assignments (24%)
 -  [Assignment 1]() (Due: )
