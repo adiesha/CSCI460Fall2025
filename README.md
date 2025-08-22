@@ -67,7 +67,7 @@ Monday, Wednesday, Friday: 08:00am--08:50am in Barnard Hall 108
 Operating systems design including necessary hardware support. Processes, threads, concurrent programming, and scheduling. Memory, file, and I/O management.
 
 ## Course information
-This course meets on Mondays, Wednesdays, and Fridays from 08:00 a.m.–0850 a.m. in Barnard 108. Course meetings consist of a combination of lectures, in-class activities, and quizzes (tests) and project. We will use Discord as the primary method of communication, and course information will be posted on d2l and github.
+This course meets on Mondays, Wednesdays, and Fridays from 08:00 a.m.–0850 a.m. in Barnard 108. Course meetings consist of a combination of lectures, in-class activities, and quizzes (tests) and project. We will use Canvas as the primary method of communication, and course information will be posted on Canvas.
 
 ## Course resources
 
