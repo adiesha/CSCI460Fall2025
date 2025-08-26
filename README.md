@@ -7,7 +7,7 @@ Monday, Wednesday, Friday: 08:00am--08:50am in Barnard Hall 108
 
 | Week # 	|               Date              	|                                       lecture Topic                                       	|     Recommended reading    	| HW due 	|
 |:------:	|:-------------------------------:	|:-----------------------------------------------------------------------------------------:	|:--------------------------:	|:------:	|
-|    1   	|    Wednesday, August 20, 2025   	|                                 Course intro and   Syllabus                               	|                            	|        	|
+|    1   	|    Wednesday, August 20, 2025   	|                                 [Course intro](https://github.com/adiesha/CSCI460Fall2025/blob/master/Lectures/Overview/Overview.pdf) and [Syllabus](https://github.com/adiesha/CSCI460Fall2025/blob/master/Lectures/Overview/Lecture%2001.docx)                               	|                            	|        	|
 |    1   	|    Friday, August 22,   2025    	|     History of OS   development, Early memory management, static and dynamic partition    	|       Ch 2, Ch 7.1-7.2     	|        	|
 |    2   	|    Monday, August 25,   2025    	|                             History of OS   development...cont                            	|      Ch. 2, Ch 7.1-7.2     	|        	|
 |    2   	|   Wednesday, August   27, 2025  	|                                 Recent memory   management                                	|         Chapter 7-8        	|        	|
