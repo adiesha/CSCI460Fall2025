@@ -19,8 +19,8 @@ Monday, Wednesday, Friday: 08:00am--08:50am in Barnard Hall 108
 |    4   	| Wednesday,   September 10, 2025 	|                                    Processor management                                   	|          Chapter 9         	|        	|
 |    4   	|   Friday, September   12, 2025  	|                                   Processor   management                                  	|              ''            	|        	|
 |    5   	|   Monday, September   15, 2025  	|                                   Processor   management                                  	|                            	|        	|
-|    5   	| Wednesday,   September 17, 2025 	|                                           Test 1 (Tentative)                               	|                            	|        	|
-|    5   	|   Friday, September   19, 2025  	|                                  deadlocks and starvation                                 	|            Ch. 6           	|        	|
+|    5   	| Wednesday,   September 17, 2025 	|                                   deadlocks and starvation                                 	|                            	|        	|
+|    5   	|   Friday, September   19, 2025  	|                                  **Test 1** (one Letter sized cheat sheet is allowed)      	|            Ch. 6           	|        	|
 |    6   	|   Monday, September   22, 2025  	|                                          deadlocks                                        	|                            	|        	|
 |    6   	| Wednesday,   September 24, 2025 	|                                          deadlocks                                        	|            Ch. 06          	|        	|
 |    6   	|   Friday, September   26, 2025  	|                                          deadlocks                                        	|                            	|        	|
@@ -32,7 +32,7 @@ Monday, Wednesday, Friday: 08:00am--08:50am in Barnard Hall 108
 |    8   	|    Friday, October   10, 2025   	|                                      Device Management                                    	|                            	|        	|
 |    9   	|    Monday, October   13, 2025   	|                                      Device Management                                    	|                            	|        	|
 |    9   	|  Wednesday, October   15, 2025  	|                                      Device Management                                    	|                            	|        	|
-|    9   	|    Friday, October   17, 2025   	|                                           Test 2 (Tentative)                                |                            	|        	|
+|    9   	|    Friday, October   17, 2025   	|                                 **Test 2** (one Letter sized cheat sheet is allowed)        |                            	|        	|
 |   10   	|    Monday, October   20, 2025   	|                                Device Management Notes, RAID                              	|            Ch. 11          	|        	|
 |   10   	|  Wednesday, October   22, 2025  	|                           Security, Diffie-Hellman algorithm, RSA                         	|                            	|        	|
 |   10   	|    Friday, October   24, 2025   	|                                                                                           	|                            	|        	|
@@ -46,8 +46,8 @@ Monday, Wednesday, Friday: 08:00am--08:50am in Barnard Hall 108
 |   13   	|  Wednesday,   November 12, 2025 	|                               Distributed mutual   exclusion                              	|                            	|        	|
 |   13   	|   Friday, November   14, 2025   	|                            Distributed mutual exclusion, handout                          	|                            	|        	|
 |   14   	|   Monday, November   17, 2025   	|                      Distributed mutual   exclusion, Queuing analysis                     	|                            	|        	|
-|   14   	|  Wednesday,   November 19, 2025 	|                                           Test 3 (Tentative)                               	|                            	|        	|
-|   14   	|   Friday, November   21, 2025   	|                          Queuing analysis, Queue analysis handout                         	|                            	|        	|
+|   14   	|  Wednesday,   November 19, 2025 	|                             Queuing analysis, Queue analysis handout                       	|                            	|        	|
+|   14   	|   Friday, November   21, 2025   	|                          **Test 3 (one Letter sized cheat sheet is allowed)**              	|                            	|        	|
 |   15   	|   Monday, November   24, 2025   	|                                  Fall break - No   classes                                	|                            	|        	|
 |   15   	|  Wednesday,   November 26, 2025 	|                                  Fall break - No   classes                                	|                            	|        	|
 |   15   	|   Friday, November   28, 2025   	|                                  Fall break - No   classes                                	|                            	|        	|
@@ -55,7 +55,7 @@ Monday, Wednesday, Friday: 08:00am--08:50am in Barnard Hall 108
 |   16   	|  Wednesday,   December 3, 2025  	|                                Final Project   presentations                              	|                            	|        	|
 |   16   	|    Friday, December   5, 2025   	|                                Final Project   presentations                              	|                            	|        	|
 |   17   	|    Monday, December   8, 2025   	|                                Final Project   presentations                              	|                            	|        	|
-|   17   	|  Wednesday,   December 10, 2025 	|                                       End of semester                                     	|                            	|        	|
+|   17   	|  Wednesday,   December 10, 2025 	|                                Final Project   presentations                               	|                            	|        	|
 |        	|                                 	|                                                                                           	|                            	|        	|
 
 
