@@ -54,7 +54,7 @@ Monday, Wednesday, Friday: 08:00am--08:50am in Barnard Hall 108
 |   16   	|    Monday, December   1, 2025   	|                                Final Project   presentations                              	|                            	|        	|
 |   16   	|  Wednesday,   December 3, 2025  	|                                Final Project   presentations                              	|                            	|        	|
 |   16   	|    Friday, December   5, 2025   	|                                Final Project   presentations                              	|                            	|        	|
-|   17   	|    Monday, December   8, 2025   	|                                Final Project   presentations                              	|                            	|        	|
+|   17   	|    Monday, December   8, 2025   	|                                ----------------------------                               	|                            	|        	|
 |   17   	|  Wednesday,   December 10, 2025 	|                                Final Project   presentations                               	|                            	|        	|
 |        	|                                 	|                                                                                           	|                            	|        	|
 
