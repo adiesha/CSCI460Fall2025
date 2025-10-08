@@ -8,12 +8,13 @@ struct Args
     double b;
 };
 
-
+// You can only set one argument for the thread function
 void* compute(void* arg) {
     struct Args* args = (struct Args*) arg;
     printf("a = %d, b = %.2f\n", args->a, args->b);
     double* result = malloc(sizeof(double));
     *result = args->b;
+
 
     return result;
 }

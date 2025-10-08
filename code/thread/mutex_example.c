@@ -10,7 +10,7 @@
 int counter  = 0;
 pthread_mutex_t mutex;
 
-
+// increments the counter and prints who incremented it
 void* increment_counter(void* tid) {
     for (int i=0; i < NUM_MAX_INCREMENT; i++) {
         pthread_mutex_lock(&mutex);
@@ -33,7 +33,7 @@ int main() {
     {
         int* arg = malloc(sizeof(int));
         *arg = i;
-        // why cannot we pass the i as an arguement?
+        // why cannot we pass the i as an arguement? --check what happens
         if (pthread_create(&threads[i], NULL, increment_counter, (void *) arg)) {
             perror("Failed to create the threads");
             exit(EXIT_FAILURE);
@@ -45,7 +45,7 @@ int main() {
         pthread_join(threads[i], NULL); // second arguement can keep track of the return value of the thread
     }                                                                   
     
-
+    // Destroying the mutex after use is good practice.
     pthread_mutex_destroy(&mutex);
 
 
