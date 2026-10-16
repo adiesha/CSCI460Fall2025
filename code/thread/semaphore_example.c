@@ -25,19 +25,21 @@ sem_t s;
 sem_t n;
 sem_t e;
 
-void* consumer_func() {
+void* consumer_func(void* arg) {
     for (int i = 0; i < 10; i++)
     {
         sem_wait(&n);
         sem_wait(&s);
         int take = buffer[out];
+        out = (out + 1)% BUFFER_SIZE;
+
         char buffertake[100];
-        snprintf(buffertake, sizeof(buffertake), "Consuming take: %d\n", take);
+        snprintf(buffertake, sizeof(buffertake), "%sConsuming take: %d%s\n",KRED, take, KNRM);
         write(STDOUT_FILENO, buffertake, strlen(buffertake));
-        out--;
-        char buffer[100];
-        snprintf(buffer, sizeof(buffer), "%sConsumed %d items%s\n", KRED, i, KNRM);
-        write(STDOUT_FILENO, buffer, strlen(buffer));
+        
+        // char buffertake[100];
+        // snprintf(buffertake, sizeof(buffertake), "%sConsumed %d items%s\n", KRED, i, KNRM);
+        // write(STDOUT_FILENO, buffertake, strlen(buffertake));
         sem_post(&s);
         sem_post(&e);
     }
@@ -45,17 +47,19 @@ void* consumer_func() {
 }
 
 
-void* producer_func() {
+void* producer_func(void* arg) {
     for (int i = 0; i < 10; i++)
     {
-        int temp = rand();
+        int temp = rand() % 100;
+
         sem_wait(&e);
         sem_wait(&s);
+        
         buffer[in] = temp;
-        in++;
-        char buffer[100];
-        snprintf(buffer, sizeof(buffer), "%sProduced %d items%s\n", KGRN, i, KNRM);
-        write(STDOUT_FILENO, buffer, strlen(buffer));
+        in = (in + 1) % BUFFER_SIZE;
+        char log_msg[100];
+        snprintf(log_msg, sizeof(log_msg), "%sProduced %d items, and latest value: %d %s\n", KGRN, i, temp, KNRM);
+        write(STDOUT_FILENO, log_msg, strlen(log_msg));
         sem_post(&s);
         sem_post(&n);
     }

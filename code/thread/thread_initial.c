@@ -17,6 +17,8 @@ int main () {
 
     pthread_t thread1;
     // second argument sets the attributes of the thread, typically we set it to NULL
+    // generic void * pointer containing the argument to be passed into your start_routine function
+    
     int return_create = pthread_create(&thread1, NULL, compute, NULL);
     
     printf("Thread creation returned: %d\n" , return_create);

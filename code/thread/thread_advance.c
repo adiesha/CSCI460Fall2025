@@ -12,11 +12,10 @@ struct Args
 void* compute(void* arg) {
     struct Args* args = (struct Args*) arg;
     printf("a = %d, b = %.2f\n", args->a, args->b);
-    double* result = malloc(sizeof(double));
-    *result = args->b;
-
-
-    return result;
+    // double* result = malloc(sizeof(double));
+    // *result = args->b;
+    double result = 1.44f;
+    return &result;
 }
 
 
@@ -27,6 +26,7 @@ int main() {
     pthread_create(&thread, NULL, compute, &args);
     
     double* returnvalue;
+    // We explicitly cast it to (void **) to satisfy the function signature.
     pthread_join(thread, (void **)&returnvalue);
     printf("Thread returned: %.3f\n", *returnvalue);
     return 0;
