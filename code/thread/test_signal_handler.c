@@ -23,6 +23,7 @@ void handle_sig_STOP(int num) {
 
 
 int main() {
+    printf("My PID is: %d\n", getpid());
     signal(SIGINT, handle_sig_int);
     signal(SIGTERM, handle_sig_terminate);
     // unconditional signals

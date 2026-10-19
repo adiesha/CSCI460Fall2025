@@ -10,39 +10,40 @@
 #define KCYN  "\x1B[36m"
 #define KWHT  "\x1B[37m"
 
-void partent() {
+void parent() { // Fixed typo from partent
     printf("%sMy pid is %d and this is the parent process %s\n", KRED, getpid(), KNRM);
     sleep(2);
     return;
 }
 
 void child() {
-    printf("%sThis is the child process\n%s", KGRN,KNRM);
+    printf("%sThis is the child process\n%s", KGRN, KNRM);
     sleep(1);    
 }
 
 int main() {
-
     int pid = fork();
+    
     if (pid < 0) {
         printf("Error occurred during forking\n");
-
-    } else if (pid == 0) { // This is the child process
-
-        printf("%sSince the pid: %d is greater than 0, this must be the child process\n", KGRN, pid);
+        return 1;
+    } 
+    else if (pid == 0) { // This is the child process
+        // CORRECTED: fork() returns exactly 0 to the child process
+        printf("%sSince the returned fork pid value is exactly %d, this must be the child process.\n", KGRN, pid);
+        printf("My actual PID using getpid() is: %d\n", getpid());
         printf("Let's invoke the child method%s\n", KNRM);
         child();
-
-
-    } else {
-        printf("%sSince pid value returned is 0, this must be the parent process\n" \
-        "And the pid of this process is %d\n", KRED, getpid());
-        printf("For the parent returned pid and actual pid values are different");
-        printf("returned: %d PID: %d", pid, getpid());
+    } 
+    else { // This is the parent process
+        // CORRECTED: fork() returns the child's real PID (greater than 0) to the parent
+        printf("%sSince the returned fork pid value is %d (greater than 0), this must be the parent process.\n", KRED, pid);
+        printf("And the actual PID of this parent process is %d\n", getpid());
+        printf("For the parent, the returned fork value (child's PID) and actual parent PID are different.\n");
+        printf("Returned fork value: %d | Actual Parent PID: %d\n", pid, getpid()); // Added newline
         printf("Let's invoke the parent function in this process.\n%s", KNRM);
-        partent();
-
-        
+        parent();
     }
+    
     return 0;
 }
